@@ -84,8 +84,11 @@ WSGI_APPLICATION = 'agency.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': BASE_DIR / 'db.sqlite3',
+        'ENGINE': 'django.db.backends.mysql',
+        'NAME': 'gb_btcminer8',
+        'USER': 'gb_btcminer8',
+        'PASSWORD': 'HFF8Q-Wae3RW',
+        'HOST': 'mysql93.1gb.ru'
     }
 }
 
