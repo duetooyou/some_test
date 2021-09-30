@@ -1,0 +1,1 @@
+{"quests": "[\n      \"title\": \"Escalibur\",\n      \"gold\": 55,\n      \"silver\": 25,\n      \"text\": \"Find sword\",\n      \"url\": \"https://findSword.com\",\n      \"repeat\": true,\n      \"code\": \"1234567890\",\n      \"someTextData\": \"some.tex.data\"\n    ]"}
