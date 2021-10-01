@@ -24,7 +24,7 @@ class Houses(models.Model):
     id = models.AutoField(db_column='ID', primary_key=True)  # Field name made lowercase.
     user = models.ForeignKey(Users, on_delete=models.CASCADE, db_column='USER_ID',
                              related_name='houses')  # Field name made lowercase.
-    address = models.CharField(db_column='ADDRESS', max_length=255)  # Field name made lowercase.
+    adress = models.CharField(db_column='ADDRESS', max_length=255)  # Field name made lowercase.
 
     class Meta:
         managed = False

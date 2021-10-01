@@ -88,8 +88,7 @@ DATABASES = {
         'NAME': 'gb_btcminer8',
         'USER': 'gb_btcminer8',
         'PASSWORD': 'HFF8Q-Wae3RW',
-        'HOST': 'mysql93.1gb.ru',
-
+        'HOST': 'mysql93.1gb.ru'
     }
 }
 
