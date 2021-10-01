@@ -1,10 +1,10 @@
 from rest_framework import serializers
-from .models import User, House
+from .inspectmodel import Users, Houses
 
 
 class UserSerializer(serializers.ModelSerializer):
     class Meta:
-        model = User
+        model = Users
         fields = '__all__'
 
 
@@ -15,8 +15,8 @@ class UserSerializerForHouse(UserSerializer):
 
 class HouseSerializer(serializers.ModelSerializer):
 
-    owner = UserSerializerForHouse()
+    user = UserSerializerForHouse()
 
     class Meta:
-        model = House
+        model = Houses
         fields = '__all__'

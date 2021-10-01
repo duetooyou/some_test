@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-%0rz1@6$9a5lu*&w7pyqlh$5c7#vdo2h!5_e^5&3u0cwi(j7ot
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 
 # Application definition
@@ -88,7 +88,8 @@ DATABASES = {
         'NAME': 'gb_btcminer8',
         'USER': 'gb_btcminer8',
         'PASSWORD': 'HFF8Q-Wae3RW',
-        'HOST': 'mysql93.1gb.ru'
+        'HOST': 'mysql93.1gb.ru',
+
     }
 }
 
